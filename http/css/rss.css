@@ -1,0 +1,38 @@
+body {
+	padding: 60px 10px;
+}
+.starter-template {
+	padding: 0px 15px;
+}
+table.go, td.E, td.W, td.B{
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+}
+table.go{
+	width:95%;
+}
+td.E, 
+td.W, 
+td.B{
+	width:3%;
+	position:relative;
+}
+td.E:after, td.W:after, td.B:after {
+	content: '';
+	display: block;
+	margin-top: 30%;
+}
+td.E:hover, td.W:hover, td.B:hover{
+	background:yellow;
+}
+td.E{
+	background:grey;
+}	
+td.W{
+	background:white;
+}	
+td.B{
+	background:black;
+}
+
