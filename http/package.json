@@ -1,0 +1,13 @@
+{
+  "name": "go",
+  "version": "1.0.0",
+  "license": "",
+  "repository": "https://github.com/stevenluong/go",
+  "dependencies": {
+    "bower": "*"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}
+
